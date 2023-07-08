@@ -1,0 +1,21 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-text {
+  position: relative;
+  font-size: 3rem;
+  text-align: center;
+}
+.component-root-class-name {
+  top: 59px;
+  left: 659px;
+  position: absolute;
+}
+@media(max-width: 479px) {
+  .component-root-class-name {
+    top: 63px;
+    right: 102px;
+    position: static;
+  }
+}
